@@ -1,0 +1,8 @@
+kafka:
+  group-id: photo-service-group
+  topic:
+    photoUpload: photo-upload
+  address: ${KAFKA_HOST:192.168.1.2}:${KAFKA_PORT:9092}
+
+server:
+  port: 8081
